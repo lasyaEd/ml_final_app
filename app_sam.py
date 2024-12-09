@@ -18,8 +18,8 @@ if 'selected_indices' not in st.session_state:
     st.session_state.selected_indices = []
 
 load_dotenv()
-token = os.getenv('HUGGING_FACE_HUB_TOKEN')
-login(token=token)
+#token = os.getenv('HUGGING_FACE_HUB_TOKEN')
+login(token="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")
 
 def build_base_network(input_shape):
     """Create base CNN for feature extraction"""
